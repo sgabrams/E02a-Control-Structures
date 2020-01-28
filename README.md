@@ -14,39 +14,65 @@ Comments in Python are marked by a # sign (for single-line comments) or three ma
 Edit README.md to answer the following questions:
 
 - Open main01.py. Before running it, what do you expect this program to do?
+  I expect this program to greet the player and ask their favorite color
   - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
+  The program asked me my favorite color
   - What do you think the program did with what you typed in answer to the question?
+  nothing, because there were no additional lines of code
+
 - Open main02.py. Before running it, describe how this is different than main01.py.
+one additional line of code at the bottom
   - What do you think the color = input() will do?
-  - Run the program in the terminal and answer the question. Did the program do what you expected?
-- Open main03.py. Before running it, describe how this is different than main02.py.
+  Its going to read back the answer I chose 
+  - Run the program in the terminal and answer the question. Did the program do what you expected? yes it ran back my answer
+- Open main03.py. Before running it, describe how this is different than main02.py. it read back my answer
   - What is happening on lines 9–12?
+its trying to guess the color  
   - Why are lines 10 and 12 indented?
+it gives the player the response that is highlighted in purple
   - Run the program and answer the question. What happens if you don’t capitalize Red?
+it responds saying "sorry try again"
   - What does this tell you about "color"?
+It needs to capitalized
 - Open main04.py. Before running it, describe how this is different than main03.py.
+it puts enmphasis on capitalization
   - What problem is this trying to solve?
+making sure you use capitalization
   - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+  it tells me to try again
 - Open main05.py. What do you expect line 9 to do?
+allowing it not to be case sensitive
   - What problem is it trying to solve?
+allowing it to not be case sensative
   - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)?
+It tells me to try again
  - Open main06.py. How is line 9 different than in main05.py?
+it says strip in the code 
    - What would you guess .strip() is doing?
+it allows you to add spaces in the answer
    - Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+if you add spaces between the letters its incorrect
  - Open main07.py. Before running this program, how do you expect this to be different than main06.py?
+it will allow you to add spaces in the answer
    - What is happening on line 12?
+the code is giving hints to the player 
    - Run the program and answer the question.
  - Open main08.py. What is the purpose of line 9?
+to say red is correct
    - Why are lines 10–17 indented?
+because they are responses
    - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)?
+the code gets messed up and you can't play
    - Make that change and run the program again. (To end any Python program, you can type ctrl-c)
  - Open main09.py. What is happening on line 13?
    - What is the purpose of “count”?
+it counts the player's attempts
    - What is happening on line 22?
+its code for a response
    - Run the program.
  - *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).
  - *Extra credit:* open main11.py. What is happening on lines 6-11?
-  
+ part of the code that randomizes the answer 
 Commit your changes and push them back to the repository.
  
 
